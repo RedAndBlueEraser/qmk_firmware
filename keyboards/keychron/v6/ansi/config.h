@@ -37,3 +37,28 @@
 
 /* Enable scroll-lock LED */
 #define SCROLL_LOCK_LED_INDEX 14
+
+/* Matrix IO delay */
+#define MATRIX_IO_DELAY 15
+
+/* Debounce time */
+#define DEBOUNCE 4
+
+/* Turn on NKRO by default */
+#define FORCE_NKRO
+
+/* Disable mechanical lock switch support */
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+
+/* Disable tap dance and other tapping features */
+#define NO_ACTION_TAPPING
+
+/* Disable one-shot modifiers */
+#define NO_ACTION_ONESHOT
+
+/* Disable audio */
+#define NO_MUSIC_MODE
+
+/* Max 8 layers */
+#define LAYER_STATE_8BIT
